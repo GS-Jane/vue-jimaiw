@@ -1,0 +1,16 @@
+#j-foot{
+    width: 100%;
+    height: 1.6rem;
+    position:fixed;
+    left:0;
+    bottom:0.133333rem;
+    p{float:left;
+        img{
+            height: 1.066667rem;
+            float:left;
+            margin-left:1.073333rem;
+        }
+        span{margin-left:1.173333rem;font-size: 0.4rem;text-align:center;}
+    }
+    .active{img{color:#f90;}color:#f90;}
+}
