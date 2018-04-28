@@ -8,10 +8,16 @@
 
 <script>
     import footComponent from '../comm/foot/foot.vue'
+    import $ from 'jquery'
+
+    
     export default{
         components: {
            footComponent
         }
+    }
+    mounted:{
+        console.log($)
     }
 
 

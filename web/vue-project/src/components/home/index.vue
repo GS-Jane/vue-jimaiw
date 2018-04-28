@@ -2,7 +2,6 @@
 
     <div id="index">
         <h1>index</h1>
-
         <footComponent></footComponent>
     </div>
 </template>
