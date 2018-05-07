@@ -4,21 +4,22 @@
     position:fixed;
     left:0;
     bottom:0;
+    background: #fff;
     a{
         display: inline-block;
         width: 25%;
         p{
             display: flex;
-            height: 0.666667rem;
+            height: 0.666667rem*2;
             flex-direction: column;
             width: 100%;
             text-align: center;
             justify-content: space-between;
             i{
-                font-size: 0.373333rem;
+                font-size: 0.373333rem*2;
             }
             span{
-                font-size: 0.186667rem;
+                font-size: 0.186667rem*2;
                 text-align:center;
             }
         }

@@ -6,12 +6,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server  --open --hot ",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server  --open --hot --host 10.3.133.9",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
     "axios": "^0.17.1",
     "cnpm": "^5.1.1",
+    "express": "^4.16.3",
     "jquery": "^3.2.1",
     "mint-ui": "^2.2.13",
     "utils": "^0.3.1",

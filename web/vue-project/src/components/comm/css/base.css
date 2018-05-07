@@ -13,9 +13,11 @@ input{
 header,footer,section,main,nav{
 	display:block;}
 body{
-	font-size:0.32rem;
+	font-size:0.32rem*2;
 	font-family:"微软雅黑";
-	color:#3e3e3e;}
+	color:#3e3e3e;
+    background: #e5e8eb;
+}
 a{
 	text-decoration:none;
 	color:#ccc;}
@@ -36,7 +38,7 @@ i{font-style:normal;}
 
 .iconfont {
   font-family:"iconfont" !important;
-  font-size:0.213333rem;
+  font-size:0.213333rem*2;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
